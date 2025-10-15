@@ -1,6 +1,6 @@
 # Ex.No: 5  Implementation of Steering behaviour-Pursue and Evade in Unity
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:  02-09-2025                                                                          
+### REGISTER NUMBER : 212223240092
 ### AIM: 
 To write a program to simulate the process of Pursue and Evade behavior in Unity using NavigationMeshAgent. 
 ### Algorithm:
@@ -15,9 +15,9 @@ To write a program to simulate the process of Pursue and Evade behavior in Unity
   Rename them to "Player", "Pursuer", and "Evader".
   Set their Y Position to 0.5 (so they sit on the ground).
   Change their Material for better distinction (optional).
-3. Check AI navigation in window.
- Window → AI → Navigation (opens the Navigation tab).  If it is not available then add package by name "com.unity.ai.navigation"
-4. Select the Plane, go to the Navigation tab, and mark it as Navigation Static.
+3. Add NavMesh and Bake
+   Window → AI → Navigation (opens the Navigation tab).
+   Select the Plane, go to the Navigation tab, and mark it as Navigation Static.
    Go to the Bake tab and click Bake.
    or
    Add navMeshSurface to plane and bake 
@@ -110,6 +110,7 @@ public class Pursuer: MonoBehaviour
 
 
 
+<img width="1912" height="1024" alt="image" src="https://github.com/user-attachments/assets/a9f5e9b4-8056-4383-b50c-aec9072645af" />
 
 
 
