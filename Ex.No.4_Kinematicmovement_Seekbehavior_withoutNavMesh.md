@@ -1,8 +1,8 @@
-# Ex.No: 4  Implementation of Kinematic movement -seek and Flee behavior in Unity
-### DATE:                                                                            
-### REGISTER NUMBER : 
+# Ex.No: 4  Implementation of Kinematic movement -seek behavior in Unity
+### DATE: 19/08/2025                                                                           
+### REGISTER NUMBER : 212223240092
 ### AIM: 
-To write a program to simulate the process of seek and Flee behavior in Unity without NavigationMeshAgent. 
+To write a program to simulate the process of seek behavior in Unity without NavigationMeshAgent. 
 ### Algorithm:
 1. Create a New Unity Project by Open the  Unity Hub and create a new 3D Project,Name the project (e.g., SeekBehaviorDemo).
 2. Create the Moving Object
@@ -19,9 +19,8 @@ To write a program to simulate the process of seek and Flee behavior in Unity wi
 6. Attach the Script
    Select Seeker in the Hierarchy - Drag & Drop the SeekBehavior script onto the Inspector Panel.
    Drag & Drop the Target from the Hierarchy into the "Target" field in the script component.
-12.  Write a script for flee behavior and attach it to target
-13.  Run the game
-14. Stop the program
+12. Run the game 
+13. Stop the program
     
 ### Program:
 ```
@@ -81,10 +80,11 @@ public class fleeScript : MonoBehaviour
 }
 ```
 ### Output:
-<img width="1911" height="997" alt="image" src="https://github.com/user-attachments/assets/42e2d1a6-0bc9-4fbf-9d9d-3d38ae4286eb" />
+
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/ee58e516-8d0b-4d59-a782-6ebba547a21f" />
 
 
-
+<img width="1918" height="1014" alt="image" src="https://github.com/user-attachments/assets/cbe2caf8-e068-4823-a36d-1abc22c0b277" />
 
 
 
